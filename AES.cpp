@@ -191,14 +191,6 @@ int main(){
             };
 
 
-    /*{
-            'z', 'g', 'u', '1',
-            'h', 'y', 'n', '1',
-            'e', 'u', '2', '0',
-            'n', 'k', '0', '1'
-    };*/
-
-
     print((uint8_t*)cipherKey);
     keySchedule(cipherKey);
     uint8_t * output = AES((uint8_t*)plainText);
